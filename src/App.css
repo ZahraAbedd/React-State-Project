@@ -7,6 +7,34 @@
   pointer-events: none;
 }
 
+main,nav{
+  max-width: 400px;
+  margin: 0px auto;
+  display: flex;
+}
+
+main{
+  min-height: 90vh;
+  height: 90vh;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+
+nav{
+  background-color: white;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+nav .fas{
+  list-style-type: none;
+  color: #666;
+  cursor: pointer;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
